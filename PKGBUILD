@@ -2,8 +2,8 @@
 pkgname=vdr-ciplus
 pkgver=1.0.2.r6.g55709fc
 _gitver=55709fc63b6ef1a83a41e025bc1ba5fce1df3eeb
-_vdrapi=2.4.1
-pkgrel=1
+_vdrapi=2.4.6
+pkgrel=2
 pkgdesc="This plug-in is a feasibility study of an implementation of the CI Plus standard for VDR."
 url="https://github.com/ciminus/vdr-plugin-ciplus"
 arch=('x86_64')
