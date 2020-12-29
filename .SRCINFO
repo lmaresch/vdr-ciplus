@@ -1,0 +1,18 @@
+pkgbase = vdr-ciplus
+	pkgdesc = This plug-in is a feasibility study of an implementation of the CI Plus standard for VDR.
+	pkgver = 1.0.2.r6.g55709fc
+	pkgrel = 2
+	url = https://github.com/ciminus/vdr-plugin-ciplus
+	arch = x86_64
+	license = AGPL3
+	makedepends = git
+	depends = openssl
+	depends = vdr-api=2.4.6
+	backup = etc/vdr/conf.avail/50-ciplus.conf
+	source = vdr-plugin-ciplus::git+https://github.com/ciminus/vdr-plugin-ciplus#commit=55709fc63b6ef1a83a41e025bc1ba5fce1df3eeb
+	source = 50-ciplus.conf
+	sha512sums = SKIP
+	sha512sums = 26b09d53f5ff451d1ca708af4195e6b647c74bbf9e1836ffab3f8ad962cac5d210c616af28c05d07fd8f0850412c68bd177404856a6a3faad6ba26f8ca10729d
+
+pkgname = vdr-ciplus
+
